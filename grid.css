@@ -2,10 +2,10 @@
   display: flex;
   width: calc(100% - 20px);
   margin: auto;
+}
 
-  &>* {
-    display: block;
-  }
+.grid-container>* {
+  display: block;
 }
 
 .grid-full-width>* {
@@ -38,7 +38,6 @@
 }
 
 @media only screen and (max-width: 1010px) {
-
   body .grid-container>*:nth-child(n) {
     width: 50%;
     display: block;
@@ -51,7 +50,6 @@
 }
 
 @media only screen and (max-width: 768px) {
-
   body .grid-container>*:nth-child(n) {
     width: 100%;
   }
