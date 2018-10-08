@@ -43,6 +43,10 @@
     display: block;
     float: left;
   }
+  
+  body .grid-container.grid-full-width>*:nth-child(n) {
+    width: 100%;
+  }
 
   body .grid-container {
     display: block;
