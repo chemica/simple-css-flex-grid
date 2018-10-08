@@ -43,3 +43,7 @@ Features:
  - Responsive at two breakpoints. At 1010px width all elements become 50% width. At 768px width all elements stack vertically.
 
  - Comes with a number of width definition classes, providing full, half, third and quarter widths for child elements, along with combinations.
+ 
+ - Under 60 lines of CSS code.
+
+ - Minimal impact on markup.
